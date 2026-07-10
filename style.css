@@ -259,4 +259,49 @@ header nav ul a:hover {
 /* Styling for Main Content End */
 
 /* Styling for Footer Section Start */
+footer {
+  background-color: var(--primary-color);
+  padding: 50px 0 25px 0;
+}
+.footer-logo img {
+  width: 120px;
+}
+footer ul {
+  justify-content: end;
+  list-style: none;
+  gap: 25px;
+}
+.social-menu a {
+  background-color: var(--light-text);
+  display: inline-block;
+  color: var(--primary-color);
+  font-size: 18px;
+  text-align: center;
+  border-radius: 4px;
+  line-height: 35px;
+  width: 35px;
+  height: 35px;
+}
+.social-menu a:hover {
+  background-color: var(--accent-color);
+  color: var(--light-text);
+}
+
+.footer-bottom .container {
+  border-top: solid 1px #ffffff22;
+  margin-top: 25px;
+  padding-top: 25px;
+}
+.footer-bottom p.text {
+  color: var(--text-color-2);
+}
+.footer-bottom ul a {
+  color: var(--text-color-2);
+  font-weight: 400;
+  font-size: 16px;
+}
+.footer-bottom ul a:hover {
+  color: var(--light-text);
+}
+
 /* Styling for Footer Section Start */
