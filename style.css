@@ -12,11 +12,12 @@
   --primary-color: #0d1b2a;
   --text-color-1: #575757;
   --text-color-2: #333333;
+  --light-text: #ffffff;
   --accent-color: #1d4ed8;
 }
 
 .container {
-  width: 1140px;
+  width: 1200px;
   margin: 0px auto;
 }
 
@@ -33,4 +34,37 @@
   align-items: center;
 }
 
+img {
+  width: 100%;
+}
+
+.btn {
+  font-size: 18px;
+  background-color: var(--accent-color);
+  padding: 15px 25px;
+  color: var(--light-text);
+  border-radius: 4px;
+}
+
 /* Reset and Default Styling End */
+
+/* Styling for Header Section Start */
+header {
+  padding: 15px 0;
+}
+header nav ul.center-content {
+  flex-direction: row;
+  list-style: none;
+  gap: 25px;
+}
+header nav ul a {
+  color: var(--text-color-1);
+  font-size: 16px;
+  font-family: "Arimo", sans-serif;
+  font-weight: 400;
+}
+header nav ul a:hover {
+  color: var(--accent-color);
+}
+
+/* Styling for Header Section End */
