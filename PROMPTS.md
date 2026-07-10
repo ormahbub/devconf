@@ -1,7 +1,7 @@
 ### I have wrote this prompt in Gemini and attached the 'DevConf 2026 Landing Page.png' file (Screenshot of the UI design) to create the missing part of the website:
 
 > Act as a full stack developer and you have get this design from your client and your client has said you to make this website exactly same using just HTML and CSS. And you have did it. And as you can see there is a placeholder section showing "Something missing?", where you have to add a section which is mostly relevant to the website, which is best fit for the design and concept of the website. I mean the client told you to use your won creativity and complete the design.
-
+>
 > Note: write code only for the missing part of the website.
 
 ### Gemini has given me this HTML and CSS code:
@@ -82,12 +82,15 @@
   </div>
 </section>
 ```
+
 ```css
 /* FAQ Section Styling */
 .faq-section {
   padding: 100px 20px;
   background-color: #ffffff;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
 }
 
 .faq-container {
