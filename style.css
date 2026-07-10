@@ -218,18 +218,22 @@ header nav ul a:hover {
 .pricing-card ul li {
   color: var(--text-color-3);
   line-height: 24px;
-  margin-bottom: 7px;
+  margin-bottom: 10px;
   font-size: 16px;
 }
 .pricing-card ul li::marker {
   color: var(--accent-color);
   font-size: 18px;
 }
-.pricing-card.pro .pricing-name,
-.pricing-card.pro .price,
+.pricing-card.pro .pricing-name {
+  color: #93c5fd;
+}
+.pricing-card.pro .price {
+  color: var(--light-text);
+}
 .pricing-card.pro .text,
 .pricing-card.pro ul li {
-  color: var(--light-text);
+  color: #bbbbbb;
 }
 .pricing-card .btn {
   display: inline-block;
