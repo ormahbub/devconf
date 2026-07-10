@@ -11,7 +11,8 @@
 :root {
   --primary-color: #0d1b2a;
   --text-color-1: #575757;
-  --text-color-2: #333333;
+  --text-color-2: #888888;
+  --text-color-3: #333333;
   --light-text: #ffffff;
   --accent-color: #1d4ed8;
 }
@@ -38,8 +39,14 @@ img {
   width: 100%;
 }
 
+.section-title {
+  font-size: 40px;
+  line-height: 48px;
+  color: var(--primary-color);
+}
 .text {
   font-size: 16px;
+  color: var(--text-color-1);
   line-height: 24px;
 }
 
@@ -117,5 +124,43 @@ header nav ul a:hover {
 
 /* Styling for Banner Section End */
 
+/* Styling for MTS Section Start */
+.mts-section {
+  padding: 80px 0;
+}
+
+.mts-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 50px;
+}
+.mts-card {
+  border: solid 1px #0d1b2a22;
+  border-radius: 14px;
+  overflow: hidden;
+}
+.mts-card-content {
+  padding: 25px;
+}
+.mts-card-content p.mts-subtitle {
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 24px;
+}
+.mts-card-content .mts-title {
+  font-size: 24px;
+  color: var(--primary-color);
+  line-height: 28px;
+  margin: 5px 0 10px 0;
+}
+
+/* Styling for MTS Section End */
+
 /* Styling for Main Content End */
 /* Styling for Main Content End */
+
+/* Styling for Footer Section Start */
+/* Styling for Footer Section Start */
