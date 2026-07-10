@@ -43,6 +43,7 @@ img {
   font-size: 40px;
   line-height: 48px;
   color: var(--primary-color);
+  text-align: center;
 }
 .text {
   font-size: 16px;
@@ -55,11 +56,13 @@ img {
   background-color: var(--accent-color);
   padding: 12px 25px;
   color: var(--light-text);
+  border: solid 1px var(--accent-color);
   font-weight: 500;
   border-radius: 4px;
 }
 .btn:hover {
   background-color: var(--primary-color);
+  border-color: var(--primary-color);
 }
 
 /* Reset and Default Styling End */
@@ -119,6 +122,7 @@ header nav ul a:hover {
 }
 .banner-section .btn:hover {
   background-color: var(--light-text);
+  border-color: var(--light-text);
   color: var(--primary-color);
 }
 
@@ -158,6 +162,98 @@ header nav ul a:hover {
 }
 
 /* Styling for MTS Section End */
+
+/* Styling for Pricing Section Start */
+.pricing-section {
+  padding: 70px 0;
+}
+.pricing-section p.text {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.pricing-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 50px;
+  width: 100%;
+  gap: 25px;
+}
+.pricing-card {
+  padding: 40px;
+  border-radius: 14px;
+  border: solid 1px #0d1b2a22;
+}
+.pricing-card.pro {
+  background-color: var(--primary-color);
+}
+
+.pricing-name {
+  color: var(--text-color-2);
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.pricing-card .price {
+  font-size: 40px;
+  color: var(--primary-color);
+  margin-top: 10px;
+  line-height: 44px;
+}
+.pricing-card p.text {
+  text-align: left;
+  margin: 0;
+}
+.pricing-card ul {
+  list-style-type: disc;
+  border-top: solid 1px #0d1b2a22;
+  margin-top: 25px;
+  padding-top: 25px;
+  padding-left: 15px;
+  margin-bottom: 30px;
+}
+.pricing-card.pro ul {
+  border-color: #ffffff22;
+}
+.pricing-card ul li {
+  color: var(--text-color-3);
+  line-height: 24px;
+  margin-bottom: 7px;
+  font-size: 16px;
+}
+.pricing-card ul li::marker {
+  color: var(--accent-color);
+  font-size: 18px;
+}
+.pricing-card.pro .pricing-name,
+.pricing-card.pro .price,
+.pricing-card.pro .text,
+.pricing-card.pro ul li {
+  color: var(--light-text);
+}
+.pricing-card .btn {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.pricing-card.standard .btn,
+.pricing-card.team .btn {
+  border: solid 1px var(--accent-color);
+  color: var(--accent-color);
+  background-color: transparent;
+}
+.pricing-card.standard .btn:hover,
+.pricing-card.team .btn:hover {
+  background-color: var(--accent-color);
+  color: var(--light-text);
+}
+.pricing-card.pro .btn:hover {
+  background-color: var(--light-text);
+  border-color: var(--light-text);
+  color: var(--primary-color);
+}
+
+/* Styling for Pricing Section End */
 
 /* Styling for Main Content End */
 /* Styling for Main Content End */
