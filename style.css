@@ -1,3 +1,36 @@
-body {
-    background-color: tomato;
+/* Reset and Default Styling Start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: all 0.3s;
+  font-family: "Inter", sans-serif;
 }
+
+:root {
+  --primary-color: #0d1b2a;
+  --text-color-1: #575757;
+  --text-color-2: #333333;
+  --accent-color: #1d4ed8;
+}
+
+.container {
+  width: 1140px;
+  margin: 0px auto;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Reset and Default Styling End */
