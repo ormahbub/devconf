@@ -44,9 +44,9 @@ img {
 }
 
 .btn {
-  font-size: 18px;
+  font-size: 16px;
   background-color: var(--accent-color);
-  padding: 15px 25px;
+  padding: 12px 25px;
   color: var(--light-text);
   font-weight: 500;
   border-radius: 4px;
@@ -60,6 +60,9 @@ img {
 /* Styling for Header Section Start */
 header {
   padding: 15px 0;
+}
+header .logo img {
+  width: 124px;
 }
 header nav ul.center-content {
   flex-direction: row;
