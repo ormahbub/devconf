@@ -1,4 +1,4 @@
-### Note: I didn't use the exact code provided by Ai, I have made a significant change and update based on the website theme and styling. [Check commit's to she the changes and update]
+### Note: I didn't use the exact code provided by Ai, I have made a significant change and update based on the website theme and styling. [Check commits to see the changes and update]
 
 ### I have wrote this prompt in Gemini and attached the 'DevConf 2026 Landing Page.png' file (Screenshot of the UI design) to create the missing part of the website:
 
