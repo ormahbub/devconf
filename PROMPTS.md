@@ -1,4 +1,12 @@
-### Note: I didn't use the exact code provided by Ai, I have made a significant change and update based on the website theme and styling. [Check commits to see the changes and update]
+### Why I have chose this section?
+
+> I decided to keep this FAQ section (Suggested by Ai) because placing it right after the pricing tier makes perfect tactical sense. It immediately handles common buyer hesitations right at the point of purchase, completing the natural landing page flow.
+
+### Note:
+
+> I didn't use the exact code provided by Ai, I have made a significant change and update based on the website theme and styling. [Check commits to see the changes and update]
+
+---
 
 ### I have wrote this prompt in Gemini and attached the 'DevConf 2026 Landing Page.png' file (Screenshot of the UI design) to create the missing part of the website:
 

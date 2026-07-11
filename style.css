@@ -125,6 +125,7 @@ header nav ul a:hover {
   font-size: 68px;
   color: var(--light-text);
   line-height: 76px;
+  font-weight: 700;
 }
 .banner-section .text {
   color: var(--light-text);
